@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="dKP-mg-kne">
+            <objects>
+                <viewController storyboardIdentifier="QRImageViewController" id="MBB-Yh-jOy" customClass="QRImageViewController" customModule="iTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZZ0-oG-pHt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Sx-Jc-byN">
+                                <rect key="frame" x="57" y="144.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2Sx-Jc-byN" secondAttribute="height" multiplier="1:1" id="5e2-6W-5A9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTP-jz-AQx">
+                                <rect key="frame" x="57" y="564.5" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="clT-uV-tJe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="Share Profile Link">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="MBB-Yh-jOy" eventType="touchUpInside" id="jab-ah-7Ix"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tep-bW-I2g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Sx-Jc-byN" firstAttribute="leading" secondItem="Tep-bW-I2g" secondAttribute="leading" constant="57" id="1q0-1E-F14"/>
+                            <constraint firstItem="2Sx-Jc-byN" firstAttribute="centerX" secondItem="Tep-bW-I2g" secondAttribute="centerX" id="MFK-Ir-VyK"/>
+                            <constraint firstItem="JTP-jz-AQx" firstAttribute="trailing" secondItem="2Sx-Jc-byN" secondAttribute="trailing" id="SXY-v7-R87"/>
+                            <constraint firstItem="JTP-jz-AQx" firstAttribute="leading" secondItem="2Sx-Jc-byN" secondAttribute="leading" id="Szo-FV-UEU"/>
+                            <constraint firstItem="2Sx-Jc-byN" firstAttribute="centerY" secondItem="Tep-bW-I2g" secondAttribute="centerY" multiplier="0.65" id="kms-Hs-uik"/>
+                            <constraint firstItem="JTP-jz-AQx" firstAttribute="top" secondItem="2Sx-Jc-byN" secondAttribute="bottom" constant="120" id="sns-OA-BhQ"/>
+                            <constraint firstItem="Tep-bW-I2g" firstAttribute="trailing" secondItem="2Sx-Jc-byN" secondAttribute="trailing" constant="57" id="w64-oo-XrP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="qrImage" destination="2Sx-Jc-byN" id="z4h-XS-5ec"/>
+                        <outlet property="shareButton" destination="JTP-jz-AQx" id="jgq-4K-yIj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdW-dK-5Lw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594" y="106"/>
+        </scene>
+        <!--Qr Scan View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="QrScanViewController" id="Y6W-OH-hqX" customClass="QrScanViewController" customModule="iTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

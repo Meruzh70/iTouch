@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,9 +20,31 @@
 		A15E0F8C266D13830060D261 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E0F8A266D13830060D261 /* myCollectionViewCell.swift */; };
 		A15E0F8D266D13830060D261 /* myCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15E0F8B266D13830060D261 /* myCollectionViewCell.xib */; };
 		A15E0F8F266D13C30060D261 /* UserPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E0F8E266D13C30060D261 /* UserPagesViewController.swift */; };
+		A189314726C6A128006668A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189314626C6A128006668A0 /* NetworkManager.swift */; };
+		A189314A26C6A898006668A0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189314926C6A898006668A0 /* SignUpViewModel.swift */; };
+		A189314C26C6B198006668A0 /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189314B26C6B198006668A0 /* SignUpResponse.swift */; };
+		A1BED216268C936A007561CA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BED215268C936A007561CA /* Splash.storyboard */; };
+		A1BED218268C937A007561CA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED217268C937A007561CA /* SplashViewController.swift */; };
+		A1BED220268CA221007561CA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BED21F268CA221007561CA /* Login.storyboard */; };
+		A1BED226268CA378007561CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BED225268CA378007561CA /* SignUp.storyboard */; };
+		A1BED22A268CA505007561CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED229268CA505007561CA /* SignUpViewController.swift */; };
+		A1BED233268CB73E007561CA /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED232268CB73E007561CA /* MoreViewController.swift */; };
+		A1BED235268FA1A7007561CA /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED234268FA1A7007561CA /* QRViewController.swift */; };
+		A1BED239268FC5CD007561CA /* QrScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED237268FC5CD007561CA /* QrScanViewController.swift */; };
+		A1BED23C268FC696007561CA /* QrScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BED23B268FC696007561CA /* QrScan.storyboard */; };
+		A1BED243268FD123007561CA /* AddSocial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BED242268FD123007561CA /* AddSocial.storyboard */; };
+		A1BED2482690BA8A007561CA /* QRImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED2472690BA8A007561CA /* QRImageViewController.swift */; };
+		A1BED24C26911D56007561CA /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED24B26911D56007561CA /* FollowViewController.swift */; };
+		A1BED25026911E0C007561CA /* FollowsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED24E26911E0C007561CA /* FollowsTableViewCell.swift */; };
+		A1BED25126911E0C007561CA /* FollowsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BED24F26911E0C007561CA /* FollowsTableViewCell.xib */; };
+		A1BED254269259EC007561CA /* FollowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED253269259EC007561CA /* FollowsViewModel.swift */; };
+		A1BED2582693AAB9007561CA /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BED2562693AAB9007561CA /* InfoTableViewCell.swift */; };
+		A1BED2592693AAB9007561CA /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BED2572693AAB9007561CA /* InfoTableViewCell.xib */; };
+		A4E2F72DCA2400816A221F2B /* Pods_iTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500B0FB60A1825E0845935C1 /* Pods_iTouch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500B0FB60A1825E0845935C1 /* Pods_iTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15A4B0D26715D7A00F16AB2 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		A15A4B0E26715D7A00F16AB2 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
 		A15A4B1126715E3800F16AB2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +60,28 @@
 		A15E0F8A266D13830060D261 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
 		A15E0F8B266D13830060D261 /* myCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionViewCell.xib; sourceTree = "<group>"; };
 		A15E0F8E266D13C30060D261 /* UserPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPagesViewController.swift; sourceTree = "<group>"; };
+		A189314626C6A128006668A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A189314926C6A898006668A0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A189314B26C6B198006668A0 /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		A1BED215268C936A007561CA /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		A1BED217268C937A007561CA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A1BED21F268CA221007561CA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A1BED225268CA378007561CA /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		A1BED229268CA505007561CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A1BED232268CB73E007561CA /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		A1BED234268FA1A7007561CA /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		A1BED237268FC5CD007561CA /* QrScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanViewController.swift; sourceTree = "<group>"; };
+		A1BED23B268FC696007561CA /* QrScan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QrScan.storyboard; sourceTree = "<group>"; };
+		A1BED242268FD123007561CA /* AddSocial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddSocial.storyboard; sourceTree = "<group>"; };
+		A1BED2472690BA8A007561CA /* QRImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRImageViewController.swift; sourceTree = "<group>"; };
+		A1BED24B26911D56007561CA /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		A1BED24E26911E0C007561CA /* FollowsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsTableViewCell.swift; sourceTree = "<group>"; };
+		A1BED24F26911E0C007561CA /* FollowsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowsTableViewCell.xib; sourceTree = "<group>"; };
+		A1BED253269259EC007561CA /* FollowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsViewModel.swift; sourceTree = "<group>"; };
+		A1BED2562693AAB9007561CA /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		A1BED2572693AAB9007561CA /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		E67713AB83F955CD58931737 /* Pods-iTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTouch.debug.xcconfig"; path = "Target Support Files/Pods-iTouch/Pods-iTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		EC456ADCC4A8FE4EEBB86084 /* Pods-iTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTouch.release.xcconfig"; path = "Target Support Files/Pods-iTouch/Pods-iTouch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E2F72DCA2400816A221F2B /* Pods_iTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +110,8 @@
 			children = (
 				A15E0F6D266D00A70060D261 /* iTouch */,
 				A15E0F6C266D00A70060D261 /* Products */,
+				A99C4A5E0264A31720A3B0CF /* Pods */,
+				F1F8A032E5C261A63135E35A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +126,10 @@
 		A15E0F6D266D00A70060D261 /* iTouch */ = {
 			isa = PBXGroup;
 			children = (
-				A15E0F88266D135E0060D261 /* Cells */,
+				A189314426C6A0E2006668A0 /* Helper */,
+				A1BED20D268C927A007561CA /* Screens */,
 				A15E0F82266D04020060D261 /* Delegates */,
-				A15E0F85266D06E40060D261 /* Cntrollers */,
-				A15E0F83266D040E0060D261 /* Storyboards */,
+				A15E0F83266D040E0060D261 /* LanchScreen */,
 				A15E0F84266D04210060D261 /* Supporting files */,
 			);
 			path = iTouch;
@@ -97,13 +144,12 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		A15E0F83266D040E0060D261 /* Storyboards */ = {
+		A15E0F83266D040E0060D261 /* LanchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				A15E0F74266D00A70060D261 /* Main.storyboard */,
 				A15E0F79266D00A80060D261 /* LaunchScreen.storyboard */,
 			);
-			path = Storyboards;
+			path = LanchScreen;
 			sourceTree = "<group>";
 		};
 		A15E0F84266D04210060D261 /* Supporting files */ = {
@@ -118,10 +164,11 @@
 		A15E0F85266D06E40060D261 /* Cntrollers */ = {
 			isa = PBXGroup;
 			children = (
-				A15E0F72266D00A70060D261 /* LoginController.swift */,
 				A15E0F86266D11080060D261 /* MyTabBarController.swift */,
 				A15E0F8E266D13C30060D261 /* UserPagesViewController.swift */,
-				A15A4B1126715E3800F16AB2 /* ListViewController.swift */,
+				A1BED234268FA1A7007561CA /* QRViewController.swift */,
+				A1BED232268CB73E007561CA /* MoreViewController.swift */,
+				A1BED24B26911D56007561CA /* FollowViewController.swift */,
 			);
 			path = Cntrollers;
 			sourceTree = "<group>";
@@ -129,6 +176,8 @@
 		A15E0F88266D135E0060D261 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				A1BED2552693AA83007561CA /* InfoCells */,
+				A1BED24D26911DDA007561CA /* FollowCells */,
 				A15A4B0C26715D5700F16AB2 /* ListCollection */,
 				A15E0F89266D13680060D261 /* CollectionCells */,
 			);
@@ -144,6 +193,305 @@
 			path = CollectionCells;
 			sourceTree = "<group>";
 		};
+		A189314426C6A0E2006668A0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A189314526C6A0EC006668A0 /* Network */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A189314526C6A0EC006668A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A189314626C6A128006668A0 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A1BED20D268C927A007561CA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED23D268FD0AE007561CA /* AddSocial */,
+				A1BED236268FC5AB007561CA /* QrScan */,
+				A1BED21A268CA128007561CA /* Sign Up */,
+				A1BED219268CA107007561CA /* Log In */,
+				A1BED210268C9330007561CA /* Splash */,
+				A1BED20E268C928B007561CA /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A1BED20E268C928B007561CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED24526909906007561CA /* ViewModel */,
+				A1BED24626909911007561CA /* View */,
+				A1BED244269098FE007561CA /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A1BED20F268C9292007561CA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A15E0F74266D00A70060D261 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1BED210268C9330007561CA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED212268C9342007561CA /* ViewModel */,
+				A1BED211268C933A007561CA /* View */,
+				A1BED213268C934A007561CA /* Model */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A1BED211268C933A007561CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED217268C937A007561CA /* SplashViewController.swift */,
+				A1BED214268C9357007561CA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BED212268C9342007561CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED213268C934A007561CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BED214268C9357007561CA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED215268C936A007561CA /* Splash.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1BED219268CA107007561CA /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED21D268CA14E007561CA /* ViewModel */,
+				A1BED21C268CA147007561CA /* View */,
+				A1BED21B268CA140007561CA /* Model */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		A1BED21A268CA128007561CA /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED223268CA35D007561CA /* ViewModel */,
+				A1BED222268CA357007561CA /* View */,
+				A1BED221268CA34D007561CA /* Model */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		A1BED21B268CA140007561CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BED21C268CA147007561CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A15E0F72266D00A70060D261 /* LoginController.swift */,
+				A1BED21E268CA204007561CA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BED21D268CA14E007561CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED21E268CA204007561CA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED21F268CA221007561CA /* Login.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1BED221268CA34D007561CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A189314B26C6B198006668A0 /* SignUpResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BED222268CA357007561CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED229268CA505007561CA /* SignUpViewController.swift */,
+				A1BED224268CA365007561CA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BED223268CA35D007561CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A189314926C6A898006668A0 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED224268CA365007561CA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED225268CA378007561CA /* SignUp.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1BED236268FC5AB007561CA /* QrScan */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED237268FC5CD007561CA /* QrScanViewController.swift */,
+				A1BED23B268FC696007561CA /* QrScan.storyboard */,
+				A1BED249269107A7007561CA /* QrImage */,
+			);
+			path = QrScan;
+			sourceTree = "<group>";
+		};
+		A1BED23D268FD0AE007561CA /* AddSocial */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED240268FD0F6007561CA /* ViewModel */,
+				A1BED23F268FD0EF007561CA /* View */,
+				A1BED23E268FD0E6007561CA /* Model */,
+			);
+			path = AddSocial;
+			sourceTree = "<group>";
+		};
+		A1BED23E268FD0E6007561CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BED23F268FD0EF007561CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A15A4B1126715E3800F16AB2 /* ListViewController.swift */,
+				A1BED241268FD105007561CA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BED240268FD0F6007561CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED241268FD105007561CA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED242268FD123007561CA /* AddSocial.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1BED244269098FE007561CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BED24526909906007561CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED25226925974007561CA /* FollowsViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED24626909911007561CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED20F268C9292007561CA /* UI */,
+				A15E0F88266D135E0060D261 /* Cells */,
+				A15E0F85266D06E40060D261 /* Cntrollers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1BED249269107A7007561CA /* QrImage */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED2472690BA8A007561CA /* QRImageViewController.swift */,
+			);
+			path = QrImage;
+			sourceTree = "<group>";
+		};
+		A1BED24D26911DDA007561CA /* FollowCells */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED24E26911E0C007561CA /* FollowsTableViewCell.swift */,
+				A1BED24F26911E0C007561CA /* FollowsTableViewCell.xib */,
+			);
+			path = FollowCells;
+			sourceTree = "<group>";
+		};
+		A1BED25226925974007561CA /* FollowsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED253269259EC007561CA /* FollowsViewModel.swift */,
+			);
+			path = FollowsViewModel;
+			sourceTree = "<group>";
+		};
+		A1BED2552693AA83007561CA /* InfoCells */ = {
+			isa = PBXGroup;
+			children = (
+				A1BED2562693AAB9007561CA /* InfoTableViewCell.swift */,
+				A1BED2572693AAB9007561CA /* InfoTableViewCell.xib */,
+			);
+			path = InfoCells;
+			sourceTree = "<group>";
+		};
+		A99C4A5E0264A31720A3B0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67713AB83F955CD58931737 /* Pods-iTouch.debug.xcconfig */,
+				EC456ADCC4A8FE4EEBB86084 /* Pods-iTouch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1F8A032E5C261A63135E35A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500B0FB60A1825E0845935C1 /* Pods_iTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +499,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15E0F7F266D00A80060D261 /* Build configuration list for PBXNativeTarget "iTouch" */;
 			buildPhases = (
+				372F7B77E4D64174E58B3948 /* [CP] Check Pods Manifest.lock */,
 				A15E0F67266D00A70060D261 /* Sources */,
 				A15E0F68266D00A70060D261 /* Frameworks */,
 				A15E0F69266D00A70060D261 /* Resources */,
+				A92457697E1A41BE53A6F4D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,28 +552,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15A4B1026715D7A00F16AB2 /* ListCollectionViewCell.xib in Resources */,
+				A1BED2592693AAB9007561CA /* InfoTableViewCell.xib in Resources */,
 				A15E0F7B266D00A80060D261 /* LaunchScreen.storyboard in Resources */,
+				A1BED25126911E0C007561CA /* FollowsTableViewCell.xib in Resources */,
+				A1BED220268CA221007561CA /* Login.storyboard in Resources */,
 				A15E0F78266D00A80060D261 /* Assets.xcassets in Resources */,
 				A15E0F8D266D13830060D261 /* myCollectionViewCell.xib in Resources */,
 				A15E0F76266D00A70060D261 /* Main.storyboard in Resources */,
+				A1BED243268FD123007561CA /* AddSocial.storyboard in Resources */,
+				A1BED23C268FC696007561CA /* QrScan.storyboard in Resources */,
+				A1BED226268CA378007561CA /* SignUp.storyboard in Resources */,
+				A1BED216268C936A007561CA /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372F7B77E4D64174E58B3948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92457697E1A41BE53A6F4D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTouch/Pods-iTouch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTouch/Pods-iTouch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTouch/Pods-iTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A15E0F67266D00A70060D261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A189314726C6A128006668A0 /* NetworkManager.swift in Sources */,
 				A15E0F73266D00A70060D261 /* LoginController.swift in Sources */,
+				A189314A26C6A898006668A0 /* SignUpViewModel.swift in Sources */,
+				A1BED254269259EC007561CA /* FollowsViewModel.swift in Sources */,
 				A15A4B0F26715D7A00F16AB2 /* ListCollectionViewCell.swift in Sources */,
+				A1BED2582693AAB9007561CA /* InfoTableViewCell.swift in Sources */,
 				A15E0F8C266D13830060D261 /* myCollectionViewCell.swift in Sources */,
+				A1BED2482690BA8A007561CA /* QRImageViewController.swift in Sources */,
+				A1BED218268C937A007561CA /* SplashViewController.swift in Sources */,
+				A1BED22A268CA505007561CA /* SignUpViewController.swift in Sources */,
+				A1BED239268FC5CD007561CA /* QrScanViewController.swift in Sources */,
 				A15E0F8F266D13C30060D261 /* UserPagesViewController.swift in Sources */,
 				A15E0F87266D11080060D261 /* MyTabBarController.swift in Sources */,
 				A15E0F6F266D00A70060D261 /* AppDelegate.swift in Sources */,
 				A15A4B1226715E3800F16AB2 /* ListViewController.swift in Sources */,
 				A15E0F71266D00A70060D261 /* SceneDelegate.swift in Sources */,
+				A189314C26C6B198006668A0 /* SignUpResponse.swift in Sources */,
+				A1BED24C26911D56007561CA /* FollowViewController.swift in Sources */,
+				A1BED233268CB73E007561CA /* MoreViewController.swift in Sources */,
+				A1BED25026911E0C007561CA /* FollowsTableViewCell.swift in Sources */,
+				A1BED235268FA1A7007561CA /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +779,7 @@
 		};
 		A15E0F80266D00A80060D261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67713AB83F955CD58931737 /* Pods-iTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +799,7 @@
 		};
 		A15E0F81266D00A80060D261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC456ADCC4A8FE4EEBB86084 /* Pods-iTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
